@@ -1,23 +1,14 @@
-# Système Bancaire en Java
+# Banking Console Management System
 
-![Java](https://img.shields.io/badge/Java-11+-blue)
+A Java console application for managing bank accounts and transactions.
 
-Application console de gestion bancaire avec persistance des données.
+## Features
+- Create/delete accounts
+- Deposit/withdraw funds
+- View transaction history
+- Save data to files
 
-## Fonctionnalités
-- Gestion des comptes (création, consultation)
-- Opérations bancaires (dépôt, retrait, virement)
-- Historique des transactions
-- Sauvegarde automatique des données
-
-## Technologies
-- Java 11+
-- Maven
-- JUnit 5
-
-## Installation
+## How to Run
 ```bash
-git clone https://github.com/benmouh10
-cd projet-banque-java
-mvn package
-java -jar target/Main.jar
+javac App.java
+java App
